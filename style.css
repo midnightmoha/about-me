@@ -26,6 +26,10 @@ h1{
     font-style: normal;
 }
 
+h2{
+    font-size: 1.60rem;
+}
+
 
 .blackcat{
     margin-top: 15px;
@@ -43,18 +47,19 @@ h1{
     margin-bottom: 15px;
 }
 
-.doodle{
-    width: 300px;
+.divider{
+    width: 400px;
 }
 
-hr{
-    border: none;
-    background-color: #ccc;
-    color: rgba(120, 120, 120, 1);
-    height: 1px;
+.cardsection{
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    margin-top: 20px;
+
 }
 
-.albumbio{
+.carddesc{
     margin: 0%;
     margin-top: 5px;
     text-align: justify;
@@ -70,23 +75,37 @@ hr{
     margin-right: 20px;
     border-radius: 10px;
 }
+
 .skill{
     display: inline-block;   
     width: 100%;
     padding:20px
  }
 
- .myskills{
-    display: inline-block;
-    width: 70%;
-    height: 100%;
-    margin-top: 20px;
-
-}
-
-h3{
+.skill-h3{
     text-align: start;
+    font-size: 20px;
 }
+
+.project{
+    display: inline-block;   
+    width: 400px;
+    padding:20px
+ }
+
+ .project-h3{
+    text-align: center;
+    font-size: 20px;
+}
+
+.projectpic{
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
 
 /* smaller size ----------------------------------------------------------------------*/
 @media (max-width:600px) {
@@ -101,15 +120,32 @@ h3{
         font-size: 4.5rem;
     }
 
-    .doodle{
-        width: 200px;
+    .divider{
+        width: 300px;
     }
 
-    .skillpic{
+    .project{
+        display: inline-block;   
+        width: 100%;
+        padding:20px
+     }
+
+    .cardsection{
+        display: inline-block;
+        width: 85%;
+        height: 100%;
+        margin-top: 20px;
+    
+    }
+
+    .picresize{
         max-width: 100%;
         width: 600px;
         object-fit: cover;
         margin-bottom: 15px;
 
     }
+
+
+
 }
