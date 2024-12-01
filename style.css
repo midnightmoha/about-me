@@ -51,7 +51,7 @@ h2{
     width: 400px;
 }
 
-.cardsection{
+.skillsection{
     display: inline-block;
     width: 70%;
     height: 100%;
@@ -87,6 +87,18 @@ h2{
     font-size: 20px;
 }
 
+.projectsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+  }
+  
+
 .project{
     display: inline-block;   
     width: 400px;
@@ -99,9 +111,10 @@ h2{
 }
 
 .projectpic{
-    width: 250px;
+    width: 345px;
     border-radius: 10px;
     margin-bottom: 10px;
+    
 }
 
 
@@ -125,12 +138,11 @@ h2{
     }
 
     .project{
-        display: inline-block;   
-        width: 100%;
+        width: 85%;
         padding:20px
      }
 
-    .cardsection{
+    .skillsection{
         display: inline-block;
         width: 85%;
         height: 100%;
